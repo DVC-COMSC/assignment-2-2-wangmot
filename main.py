@@ -6,6 +6,13 @@ def main():
     ##################################################
     """
 
+    temp = input('Enter celsius: ')
+    celsius = int(temp)
+    fahrenheit = ((9/5) * celsius) + 32
+
+
+    print(f'The temp. in fahrenheit is  \t {fahrenheit: .2f}')
+
     """
     ########################################
     # Do not delete the return statement
